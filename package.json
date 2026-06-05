@@ -1,0 +1,23 @@
+{
+  "name": "cyberark-safe-ownership-gap-mapper",
+  "version": "1.0.0",
+  "description": "CyberArk Safe Ownership Gap Mapper turns CyberArk signals into board-ready risk, savings, and investment decisions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mizcausevic-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizcausevic-dev/cyberark-safe-ownership-gap-mapper.git"
+  },
+  "keywords": ["cyberark","privileged-access-governance","kinetic-gain","executive-intelligence","risk-scoring"],
+  "bin": {
+    "cyberark-safe-ownership-gap-mapper": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
